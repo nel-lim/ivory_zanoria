@@ -1,3 +1,5 @@
+/*instructor john nel lim 
+for final hands-on exam*/
 body{
     font-family:  'lato' , 'inria serif';
     color: black;
@@ -8,11 +10,7 @@ body{
     background-color: white;   
 }
 .container{
-    max-width: 1220px;
-    height: 130px;
-    margin: 0;
-    display: block;
-    background: white;
+
 }
 a, li{
     text-decoration: none;
@@ -71,7 +69,6 @@ nal ul li a:hover{
 /*Hero Section*/
 
 .hero_expanded{
-    background: url("IMAGES/HERO.jpg") no-repeat top /cover;
     position: absolute;
     height: 758px;
     width: 100%;
@@ -89,10 +86,11 @@ nal ul li a:hover{
         
 
 }
+/*instructor john nel lim 
+for final hands-on exam*/
 
 #hero{
-    position: relative;
-    background: transparent;
+
     height: 894px
 }
  
@@ -104,11 +102,7 @@ nal ul li a:hover{
     height: 574.47px;
 }
 .blank_module {
-    padding: 130px 0;
-    min-height: 500px;
-    margin-top: 753px;
-    padding-left: 130px;
-    padding-right: 130px;
+
     
 }
 
@@ -142,3 +136,5 @@ nal ul li a:hover{
 .images_container{
     background-color: #3D6261;
 }
+/*instructor john nel lim 
+for final hands-on exam*/

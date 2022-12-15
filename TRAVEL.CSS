@@ -1,5 +1,5 @@
 /*instructor john nel lim 
-for final hands-on exam*/
+for final hands- on exam*/
 body{
     font-family:  'lato' , 'inria serif';
     color: black;
@@ -10,7 +10,11 @@ body{
     background-color: white;   
 }
 .container{
-
+    max-width: 1220px;
+    height: 130px;
+    margin: 0;
+    display: block;
+    /* background: white; */
 }
 a, li{
     text-decoration: none;
@@ -21,18 +25,20 @@ a, li{
 }
 /* Header Section*/
 header, header .container{
-    height: 130px;
+        height: 130px;
+
+
 }
+
 header .header_container .header_logo{
     position: absolute;
     left: 0;
     top: 57%;
     transform: translateY(-50%);
 }
-header .header_container{
-    position: relative;
+header .header_container{   
     height: 130px;
-    overflow: hidden;
+   
 }
 nav{
     float: right;
@@ -68,11 +74,12 @@ nal ul li a:hover{
 
 /*Hero Section*/
 
-.hero_expanded{
-    position: absolute;
-    height: 758px;
-    width: 100%;
-    top: 130px;
+    .hero_expanded{
+        background: url("IMAGES/HERO.jpg") no-repeat top /cover;
+        position: absolute;
+        height: 758px;
+        width: 100%;
+        top: 130px;
 }
 
 .hero_expanded:before{
@@ -86,12 +93,26 @@ nal ul li a:hover{
         
 
 }
-/*instructor john nel lim 
-for final hands-on exam*/
 
+.header_container{
+    padding: 0%;
+
+    
+
+}
+ 
 #hero{
+position: relative;
+background:transparent;
+height: 894px;
+}
 
-    height: 894px
+hero .site_name_tag{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    text-align: center;
+    
 }
  
 
@@ -102,6 +123,7 @@ for final hands-on exam*/
     height: 574.47px;
 }
 .blank_module {
+    padding: 0%;
 
     
 }
